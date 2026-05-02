@@ -1,0 +1,90 @@
+{
+  "activeVocab": [
+    {
+      "en": "apple",
+      "vi": "quả táo"
+    }
+  ],
+  "scores": [
+    {
+      "id": 1777708956733,
+      "studentName": "khanh",
+      "score": 0,
+      "total": 1,
+      "totalTime": 2,
+      "detailedResults": [
+        {
+          "vi": "quả táo",
+          "expected": "apple",
+          "actual": "quả táo",
+          "correct": false
+        }
+      ],
+      "submittedAt": "2026-05-02T08:02:36.733Z"
+    },
+    {
+      "id": 1777708971027,
+      "studentName": "duy ",
+      "score": 0,
+      "total": 1,
+      "totalTime": 6,
+      "detailedResults": [
+        {
+          "vi": "quả táo",
+          "expected": "apple",
+          "actual": "applee",
+          "correct": false
+        }
+      ],
+      "submittedAt": "2026-05-02T08:02:51.027Z"
+    },
+    {
+      "id": 1777709003810,
+      "studentName": "khanh ",
+      "score": 1,
+      "total": 1,
+      "totalTime": 2,
+      "detailedResults": [
+        {
+          "vi": "quả táo",
+          "expected": "apple",
+          "actual": "apple",
+          "correct": true
+        }
+      ],
+      "submittedAt": "2026-05-02T08:03:23.810Z"
+    },
+    {
+      "id": 1777709032600,
+      "studentName": "đạt",
+      "score": 1,
+      "total": 1,
+      "totalTime": 6,
+      "detailedResults": [
+        {
+          "vi": "quả táo",
+          "expected": "apple",
+          "actual": "apple",
+          "correct": true
+        }
+      ],
+      "submittedAt": "2026-05-02T08:03:52.600Z"
+    },
+    {
+      "id": 1777709451071,
+      "studentName": "vĩnh",
+      "score": 1,
+      "total": 1,
+      "totalTime": 2,
+      "detailedResults": [
+        {
+          "vi": "quả táo",
+          "expected": "apple",
+          "actual": "apple",
+          "correct": true
+        }
+      ],
+      "submittedAt": "2026-05-02T08:10:51.071Z"
+    }
+  ]
+}
