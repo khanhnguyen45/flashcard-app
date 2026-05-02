@@ -19,7 +19,7 @@ export default function StudentApp() {
   const inputRef = useRef(null);
 
   useEffect(() => {
-    fetch("/api/vocab")
+    fetch("/api/vocab", { cache: "no-store" })
       .then(r => r.json())
       .then(data => setVocabList(data));
   }, [gameState]);
@@ -102,7 +102,7 @@ export default function StudentApp() {
       })
     });
 
-    const res = await fetch("/api/scores");
+    const res = await fetch("/api/scores", { cache: "no-store" });
     const allScores = await res.json();
     
     const userStats = {};

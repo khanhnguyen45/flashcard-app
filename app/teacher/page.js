@@ -13,13 +13,13 @@ export default function TeacherDashboard() {
   }, []);
 
   const fetchScores = async () => {
-    const res = await fetch("/api/scores");
+    const res = await fetch("/api/scores", { cache: "no-store" });
     const data = await res.json();
     setScores(data);
   };
 
   const fetchVocab = async () => {
-    const res = await fetch("/api/vocab");
+    const res = await fetch("/api/vocab", { cache: "no-store" });
     const data = await res.json();
     const formattedString = data.map(v => `${v.en} - ${v.vi}`).join("\n");
     setVocabInput(formattedString);
